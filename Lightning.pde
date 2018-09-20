@@ -8,7 +8,7 @@ void setup()
   frameRate(30);
   strokeWeight(5);
   background(0);
-  size(1000,750);
+  size(800,750);
   
 }
 void mouseClicked()
@@ -42,8 +42,8 @@ void Face()
  {
    textSize(50);
    fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
-   text("Eat The Rainbow",350,650);
-   text("Taste The Rainbow",350,750);
+   text("Eat The Rainbow",300,600);
+   text("Taste The Rainbow",300,700);
  }
  void LiterallyEverything()
  {
