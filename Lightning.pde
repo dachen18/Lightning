@@ -8,7 +8,7 @@ void setup()
   frameRate(30);
   strokeWeight(5);
   background(0);
-  size(1000,1000);
+  size(1000,750);
   
 }
 void mouseClicked()
@@ -65,4 +65,4 @@ if (endX >= 1000){
   endX = 50;
   endY = 530;
 }
-}
+} 
