@@ -1,7 +1,7 @@
 
 void setup()
 {
-	strokeWeight(20);
+	strokeWeight(5);
 	background(0);
   size(1000,1000);
 }
