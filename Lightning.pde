@@ -7,7 +7,7 @@ void setup()
 }
 void draw()
 {
-	int ANumber = (int)(Math.random()*3);
+	int ANumber = (int)(Math.random()*1);
 	if (ANumber == 1) 
 	{
 		int startX = 500;
@@ -36,7 +36,7 @@ int endX = 0;
 int endY = 500;
 stroke((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
 while (endX <= 1000){
-	endX = startX + ((int)(Math.random()*9));
+	endX = startX + ((int)(Math.random()*19)-9);
 	endY = startY + ((int)(Math.random()*19)-9);
 	line(startX,startY,endX,endY);
 	startX = endX;
