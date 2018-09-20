@@ -7,6 +7,7 @@ void setup()
 }
 void draw()
 {
+	int ANumber = 0;
 if (ANumber == 0){
 int startX = 0;
 int startY = 500;
