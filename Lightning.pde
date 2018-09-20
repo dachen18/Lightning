@@ -31,9 +31,9 @@ void draw()
 }
 if (ANumber == 0){
 int startX = 0;
-int startY = 500;
+int startY = 0;
 int endX = 0;
-int endY = 500;
+int endY = 0;
 stroke((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
 while (endX <= 1000){
 	endX = startX + ((int)(Math.random()*19)-9);
@@ -44,9 +44,9 @@ while (endX <= 1000){
 }
 if (endX >= 1000){
 	startX = 0;
-	startY = 500;
+	startY = 0;
 	endX = 0;
-	endY = 500;
+	endY = 0;
 }
 }
 
