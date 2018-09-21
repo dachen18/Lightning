@@ -44,6 +44,8 @@ void Face()
    fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
    text("Eat The Rainbow",300,600);
    text("Taste The Rainbow",300,700);
+   textSize(30);
+   text("Keep Clicking to get Skittles",200,500);
  }
  void LiterallyEverything()
  {
