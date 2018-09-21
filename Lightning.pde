@@ -20,7 +20,7 @@ void draw()
   background(0);
   textSize(20);
   fill(255);
-  text("Click to see what happens ;)", 300,500);
+  text("Click to see what happens ;)",250,500);
   if (Skittles == 1)
   {
     LiterallyEverything();
