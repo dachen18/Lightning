@@ -51,7 +51,10 @@ void Face()
   Face();
   Eyes();
   Text();
-stroke((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
+}
+void mousePressed()
+{
+  stroke((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
 while (endX <= 1000){
   endX = startX + ((int)(Math.random()*9));
   endY = startY - ((int)(Math.random()*19)-6);
@@ -65,4 +68,4 @@ if (endX >= 1000){
   endX = 50;
   endY = 530;
 }
-} 
+}
